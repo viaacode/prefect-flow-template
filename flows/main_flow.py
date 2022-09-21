@@ -1,5 +1,4 @@
 from prefect import task, flow
-from asyncio import taskgroups
 
 @task()
 def task_example():
